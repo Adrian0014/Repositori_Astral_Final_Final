@@ -39,15 +39,6 @@ public class InGameMenu : MonoBehaviour
                 Pause();
             }
         }
-        
-        if(Global.PauseMenu == true)
-        {
-            Debug.Log("TUS MUERTOS");
-        }
-        if(Global.PauseMenu == false)
-        {
-            Debug.Log("GILIPOLLAs");
-        }
     }
 
     public void ContinuePlay()
@@ -82,7 +73,6 @@ public class InGameMenu : MonoBehaviour
 
     public void LevelSelect()
     {
-        Debug.Log("bmkdnbboz");
         Time.timeScale = 0f;
         Global.PlayerScript = true;
         selectMenuGame.SetActive(true);

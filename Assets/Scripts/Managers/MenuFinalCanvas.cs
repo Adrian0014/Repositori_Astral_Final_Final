@@ -25,6 +25,8 @@ public class MenuFinalCanvas : MonoBehaviour
 
         Time.timeScale = 1f;
         Global.PlayerScript = false;
-        SceneManager.LoadScene(0);
+        Global.nivel = 4;
+        PlayerPrefs.SetInt("LevelMax",Global.nivel);
+        SceneManager.LoadScene(Global.nivel);
     }
 }
