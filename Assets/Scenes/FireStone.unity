@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2616.459, g: 2652.7266, b: 3765.7266, a: 1}
+  m_IndirectSpecularColor: {r: 2613.9346, g: 2680.8438, b: 3900.8047, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2739,7 +2739,7 @@ PrefabInstance:
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 181.3
+      value: 183.41
       objectReference: {fileID: 0}
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
@@ -2749,7 +2749,7 @@ PrefabInstance:
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 8.81
       objectReference: {fileID: 0}
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
@@ -21050,7 +21050,7 @@ PrefabInstance:
     - target: {fileID: 7090274769779688809, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.119522095
+      value: 1.9904938
       objectReference: {fileID: 0}
     - target: {fileID: 7090274769779688809, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
@@ -21060,7 +21060,7 @@ PrefabInstance:
     - target: {fileID: 7090274769779688809, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -104.16954
+      value: -101.35954
       objectReference: {fileID: 0}
     - target: {fileID: 7090274769779688814, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
@@ -21085,7 +21085,7 @@ PrefabInstance:
     - target: {fileID: 7090274769792676035, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.119522095
+      value: 1.9904938
       objectReference: {fileID: 0}
     - target: {fileID: 7090274769792676035, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
@@ -21095,7 +21095,7 @@ PrefabInstance:
     - target: {fileID: 7090274769792676035, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -104.16954
+      value: -101.35954
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb17d07ae7e2f82419175c32d299e5ca, type: 3}

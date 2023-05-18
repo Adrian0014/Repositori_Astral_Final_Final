@@ -85,6 +85,7 @@ public class InGameMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         Global.PlayerScript = false;
+        Global.WorldLevels = false;
         Global.nivel = 5;
         PlayerPrefs.SetInt("LevelMax",Global.nivel);
         SceneManager.LoadScene(Global.nivel);
