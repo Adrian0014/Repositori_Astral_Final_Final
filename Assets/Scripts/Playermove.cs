@@ -27,6 +27,7 @@ public class Playermove : MonoBehaviour
     [SerializeField]private float speed;
     [SerializeField]private float jumpHeight = 1f;
     [SerializeField]private float gravity = -9.81f;    
+    [SerializeField]private bool inTown = false;
     
     public Transform bulletSpawn;
     public Transform NormalSpawn;   
@@ -103,7 +104,7 @@ public class Playermove : MonoBehaviour
         LookAtTransform.eulerAngles = new Vector3(yAxis.Value, xAxis.Value, LookAtTransform.eulerAngles.z);
         
         Vector3 movement = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
-        if(Input.GetButton("Fire2") && Global.PlayerScript == false)
+        if(Input.GetButton("Fire2") && Global.PlayerScript == false && inTown == false)
         {
             bulletSpawn = AimSpawn;
             anim.SetBool("Apuntando", true);
@@ -191,7 +192,7 @@ public class Playermove : MonoBehaviour
             }
         }
 
-        if (Input.GetButtonDown("Fire1") && isGrounded && shootColdDown == false && Global.PlayerScript == false)
+        if (Input.GetButtonDown("Fire1") && isGrounded && shootColdDown == false && Global.PlayerScript == false && inTown == false)
         {
             
             GameObject powerBall = PoolManager.Instance.GetPooledPower(powerType, bulletSpawn.position, bulletSpawn.rotation);
@@ -215,14 +216,14 @@ public class Playermove : MonoBehaviour
         }
 
 
-        if(Input.GetKeyDown(KeyCode.Alpha1) && Global.PlayerScript == false)
+        if(Input.GetKeyDown(KeyCode.Alpha1) && Global.PlayerScript == false && inTown == false)
         {
             Debug.Log("Fuego");
             powerType = 1;
             PlayerAudiChangesPower.PlayOneShot(ChangesPower);
         }
 
-        if(Input.GetKeyDown(KeyCode.Alpha4) && Global.PlayerScript == false)
+        if(Input.GetKeyDown(KeyCode.Alpha4) && Global.PlayerScript == false && inTown == false)
         {
             Debug.Log("Agua");
             powerType = 0;

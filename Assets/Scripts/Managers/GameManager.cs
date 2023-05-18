@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     
     public GameObject jugador;
 
+    [SerializeField]private bool inTownManager = false;
+
 
     void Awake() 
     {
@@ -36,7 +38,7 @@ public class GameManager : MonoBehaviour
 
     void Update() 
     {
-        if(Input.GetKeyDown(KeyCode.Alpha1) && Global.PlayerScript == false)
+        if(Input.GetKeyDown(KeyCode.Alpha1) && Global.PlayerScript == false && inTownManager == false)
         {
 
             CorrientesAgua.GetComponent<Collider>().enabled = false;
@@ -45,7 +47,7 @@ public class GameManager : MonoBehaviour
         }
 
 
-        if(Input.GetKeyDown(KeyCode.Alpha4) && Global.PlayerScript == false)
+        if(Input.GetKeyDown(KeyCode.Alpha4) && Global.PlayerScript == false && inTownManager == false)
         {
 
             CorrientesAgua.GetComponent<Collider>().enabled = true;
@@ -53,7 +55,7 @@ public class GameManager : MonoBehaviour
             IconoFuego.SetActive(false);
         }
                 
-        if(Input.GetButton("Fire2") && Global.PlayerScript == false)
+        if(Input.GetButton("Fire2") && Global.PlayerScript == false && inTownManager == false)
         {
             puntoApuntando.SetActive(true);
         }

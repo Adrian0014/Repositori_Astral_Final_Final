@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2616.4746, g: 2652.711, b: 3765.7578, a: 1}
+  m_IndirectSpecularColor: {r: 2616.459, g: 2652.7266, b: 3765.7266, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2785,6 +2785,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924799185060217768, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
+        type: 3}
+      propertyPath: inTown
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1924799185060217768, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
@@ -21788,6 +21793,11 @@ PrefabInstance:
       propertyPath: IconoFuego
       value: 
       objectReference: {fileID: 1358124439}
+    - target: {fileID: 8986640232840374536, guid: f3a2c02ed0ce2d748a49500e6f4cab95,
+        type: 3}
+      propertyPath: inTownManager
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8986640232840374536, guid: f3a2c02ed0ce2d748a49500e6f4cab95,
         type: 3}
       propertyPath: CorrientesAgua
