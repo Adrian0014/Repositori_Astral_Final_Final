@@ -21,9 +21,11 @@ public class Playermove : MonoBehaviour
     [SerializeField]private float sensorRadius = 0.2f;
     [SerializeField]private LayerMask gorundLayer;
     private Vector3 playerVelocity;
-    [SerializeField]private bool isGrounded;
+    public bool isGrounded;
     [SerializeField]private LayerMask detectorLayer;
 
+
+    public Vector3 movement;
     [SerializeField]private float speed;
     [SerializeField]private float jumpHeight = 1f;
     [SerializeField]private float gravity = -9.81f;    
@@ -45,14 +47,14 @@ public class Playermove : MonoBehaviour
 
 
     public AudioSource PlayerAudio;
-    public AudioSource PlayerAudiowalk;
+    //public AudioSource PlayerAudiowalk;
     public AudioSource PlayerAudioJump;
     public AudioSource PlayerAudiChangesPower;
     public AudioClip ChangesPower;
     public AudioClip FireSFX;
     public AudioClip WhaterSFX;
     public AudioClip hitPlayer;
-    public AudioClip walkPlayer;
+    //public AudioClip walkPlayer;
     public AudioClip JumpPlayer;
 
 
@@ -64,7 +66,7 @@ public class Playermove : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         cam = Camera.main.transform;
         PlayerAudio = GetComponent<AudioSource>();
-        PlayerAudiowalk.clip = walkPlayer;
+        //PlayerAudiowalk.clip = walkPlayer;
     }
 
     void Start()
@@ -103,7 +105,7 @@ public class Playermove : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, xAxis.Value, 0);
         LookAtTransform.eulerAngles = new Vector3(yAxis.Value, xAxis.Value, LookAtTransform.eulerAngles.z);
         
-        Vector3 movement = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
+        movement = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
         if(Input.GetButton("Fire2") && Global.PlayerScript == false && inTown == false)
         {
             bulletSpawn = AimSpawn;
@@ -129,6 +131,7 @@ public class Playermove : MonoBehaviour
             controller.Move(moveDirection.normalized * speed * Time.deltaTime);    
                
         }
+        /*
         else
         {
             if(isGrounded == true)
@@ -139,7 +142,7 @@ public class Playermove : MonoBehaviour
             {
                 PlayerAudiowalk.Pause();
             }
-        }
+        }*/
 
 
     }

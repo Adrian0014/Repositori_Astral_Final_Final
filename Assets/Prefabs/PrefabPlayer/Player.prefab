@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1461510386210742342}
   - component: {fileID: 2475647299076501093}
   - component: {fileID: 5705912790093423316}
+  - component: {fileID: 297101682420978708}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -86,9 +87,11 @@ MonoBehaviour:
   detectorLayer:
     serializedVersion: 2
     m_Bits: 0
+  movement: {x: 0, y: 0, z: 0}
   speed: 10
   jumpHeight: 2
   gravity: -9.81
+  inTown: 0
   bulletSpawn: {fileID: 0}
   NormalSpawn: {fileID: 1924799186217857166}
   AimSpawn: {fileID: 0}
@@ -135,14 +138,12 @@ MonoBehaviour:
       m_LegacyHeadingDefinition: 0
       m_LegacyVelocityFilterStrength: 0
   PlayerAudio: {fileID: 8418758832451642480}
-  PlayerAudiowalk: {fileID: 1005236845509746770}
   PlayerAudioJump: {fileID: 2475647299076501093}
   PlayerAudiChangesPower: {fileID: 5705912790093423316}
   ChangesPower: {fileID: 8300000, guid: a394bdea52ffccf42be530dab07fafec, type: 3}
   FireSFX: {fileID: 8300000, guid: 9bf4af8fd13f12448a31869e66f3a924, type: 3}
   WhaterSFX: {fileID: 8300000, guid: 040eb43960cd5484f98933ee6b47ccd2, type: 3}
   hitPlayer: {fileID: 8300000, guid: 5d7250eb3605c884bbe12263c153486d, type: 3}
-  walkPlayer: {fileID: 8300000, guid: 3fe818fdfbd3bac48b691ca7aaea5b66, type: 3}
   JumpPlayer: {fileID: 8300000, guid: d6ac48571eae06e40947b84329348e07, type: 3}
 --- !u!114 &8342958944113407990
 MonoBehaviour:
@@ -552,6 +553,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &297101682420978708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924799185060217765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b69002dc0374122428310810e811c182, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSourceSteeps: {fileID: 1005236845509746770}
+  _footsSteepsSound: {fileID: 8300000, guid: 3fe818fdfbd3bac48b691ca7aaea5b66, type: 3}
 --- !u!1 &1924799185313497754
 GameObject:
   m_ObjectHideFlags: 0
