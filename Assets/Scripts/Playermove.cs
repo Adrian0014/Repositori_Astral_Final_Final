@@ -47,14 +47,12 @@ public class Playermove : MonoBehaviour
 
 
     public AudioSource PlayerAudio;
-    //public AudioSource PlayerAudiowalk;
     public AudioSource PlayerAudioJump;
     public AudioSource PlayerAudiChangesPower;
     public AudioClip ChangesPower;
     public AudioClip FireSFX;
     public AudioClip WhaterSFX;
     public AudioClip hitPlayer;
-    //public AudioClip walkPlayer;
     public AudioClip JumpPlayer;
 
 
@@ -66,7 +64,6 @@ public class Playermove : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         cam = Camera.main.transform;
         PlayerAudio = GetComponent<AudioSource>();
-        //PlayerAudiowalk.clip = walkPlayer;
     }
 
     void Start()
@@ -131,20 +128,6 @@ public class Playermove : MonoBehaviour
             controller.Move(moveDirection.normalized * speed * Time.deltaTime);    
                
         }
-        /*
-        else
-        {
-            if(isGrounded == true)
-            {
-                PlayerAudiowalk.Play();
-            }
-            if(isGrounded == false)
-            {
-                PlayerAudiowalk.Pause();
-            }
-        }*/
-
-
     }
 
     void Jump()

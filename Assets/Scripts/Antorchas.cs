@@ -26,6 +26,7 @@ public class Antorchas : MonoBehaviour
         anim = Puerta.GetComponentInChildren<Animator>();
         audioAntorcha = GetComponent<AudioSource>();
         audioAntorcha.clip = ActivoSFX;
+        AudioPuerta.clip = PuertaArriba;
     }
 
 
@@ -41,10 +42,9 @@ public class Antorchas : MonoBehaviour
             anim.SetBool("Desbloqueado", true);
             Destroy(camaraAntorcha, 4f);
             Destroy(Puerta, 4f);
-            Debug.Log("feura");
             
             audioAntorcha.PlayOneShot(EncendidoSFX);
-            AudioPuerta.PlayOneShot(PuertaArriba);
+            AudioPuerta.PlayDelayed(0.5f);
             audioAntorcha.PlayDelayed(4f);
 
 
