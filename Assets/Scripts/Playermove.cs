@@ -204,14 +204,12 @@ public class Playermove : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Alpha1) && Global.PlayerScript == false && inTown == false)
         {
-            Debug.Log("Fuego");
             powerType = 1;
             PlayerAudiChangesPower.PlayOneShot(ChangesPower);
         }
 
         if(Input.GetKeyDown(KeyCode.Alpha4) && Global.PlayerScript == false && inTown == false)
         {
-            Debug.Log("Agua");
             powerType = 0;
             PlayerAudiChangesPower.PlayOneShot(ChangesPower);
         }

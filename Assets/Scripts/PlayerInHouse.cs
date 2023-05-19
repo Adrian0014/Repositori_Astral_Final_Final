@@ -20,11 +20,12 @@ public class PlayerInHouse : MonoBehaviour
     [SerializeField]private float sensorRadius = 0.2f;
     [SerializeField]private LayerMask gorundLayer;
     private Vector3 playerVelocity;
-    [SerializeField]private bool isGrounded;
+    public bool isGrounded;
     [SerializeField]private LayerMask detectorLayer;
 
     [SerializeField]private float speed;
-    [SerializeField]private float gravity = -9.81f;    
+    [SerializeField]private float gravity = -9.81f;   
+    public Vector3 movement;
     
 
 
@@ -107,13 +108,13 @@ public class PlayerInHouse : MonoBehaviour
 
         }
 
-
+        /*
         if(playerVelocity.y < 0 && isGrounded)
         {
             playerVelocity.y = 0;
         }
 
-        /*if(isGrounded && Input.GetButtonDown("Jump") && Global.PlayerScript == false)
+        if(isGrounded && Input.GetButtonDown("Jump") && Global.PlayerScript == false)
         {
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -2f * gravity);
         }*/

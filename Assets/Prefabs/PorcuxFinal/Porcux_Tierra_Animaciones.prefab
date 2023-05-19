@@ -1385,7 +1385,7 @@ MonoBehaviour:
   quieta: {fileID: 9160361550227397061}
   PorcuxAudio: {fileID: 8194548361752746187}
   walkingPorcux: {fileID: 8300000, guid: 3bfd6c2fffc2f8843933d43d9cb1ece6, type: 3}
-  porcuxShoot: {fileID: 8300000, guid: 61b84177c77c4e34c972937a4dff3f41, type: 3}
+  porcuxShoot: {fileID: 8300000, guid: fba5b626ee5e36349b1114117f6f3c18, type: 3}
 --- !u!82 &8194548361752746187
 AudioSource:
   m_ObjectHideFlags: 0
