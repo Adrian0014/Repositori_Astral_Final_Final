@@ -52902,6 +52902,16 @@ PrefabInstance:
       propertyPath: locationPoints.Array.data[3]
       value: 
       objectReference: {fileID: 1930443163}
+    - target: {fileID: 2973910001572717308, guid: d849a199ea3e2614dbda688cefde0198,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973910001572717308, guid: d849a199ea3e2614dbda688cefde0198,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3646
+      objectReference: {fileID: 0}
     - target: {fileID: 3433848193036847971, guid: d849a199ea3e2614dbda688cefde0198,
         type: 3}
       propertyPath: m_RootOrder
@@ -52956,6 +52966,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401902384953202343, guid: d849a199ea3e2614dbda688cefde0198,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 4565170786177984221, guid: d849a199ea3e2614dbda688cefde0198,
         type: 3}
@@ -100173,7 +100188,7 @@ PrefabInstance:
     - target: {fileID: 1730763118981710733, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
       propertyPath: m_ShadowRadius
-      value: 1.98
+      value: 2.88
       objectReference: {fileID: 0}
     - target: {fileID: 1730763118981710733, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
@@ -100368,7 +100383,7 @@ PrefabInstance:
     - target: {fileID: 7533546210334575765, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
       propertyPath: m_ShapeRadius
-      value: 1.98
+      value: 2.88
       objectReference: {fileID: 0}
     - target: {fileID: 7909242040471085820, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
@@ -120253,6 +120268,16 @@ PrefabInstance:
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5578010476394839613, guid: c7db572129a3bdb4a802de0965d8569c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645798731238351993, guid: c7db572129a3bdb4a802de0965d8569c,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8350040508556960519, guid: c7db572129a3bdb4a802de0965d8569c,
         type: 3}
       propertyPath: m_Name
@@ -120317,6 +120342,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099686778053693474, guid: c7db572129a3bdb4a802de0965d8569c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099686778053693474, guid: c7db572129a3bdb4a802de0965d8569c,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3211
       objectReference: {fileID: 0}
     - target: {fileID: 9160361549335719771, guid: c7db572129a3bdb4a802de0965d8569c,
         type: 3}
