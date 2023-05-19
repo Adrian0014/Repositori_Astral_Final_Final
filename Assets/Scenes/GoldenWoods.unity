@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1880.9629, g: 2040.4648, b: 3017.996, a: 1}
+  m_IndirectSpecularColor: {r: 1873.4902, g: 2028.4766, b: 2990.7266, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1351,6 +1351,16 @@ PrefabInstance:
       propertyPath: locationPoints.Array.data[3]
       value: 
       objectReference: {fileID: 1991587501}
+    - target: {fileID: 7365473582058721406, guid: 9f39070c2fb485c4988a7315880b0e02,
+        type: 3}
+      propertyPath: m_Height
+      value: 1.711277
+      objectReference: {fileID: 0}
+    - target: {fileID: 7365473582058721406, guid: 9f39070c2fb485c4988a7315880b0e02,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.3556385
+      objectReference: {fileID: 0}
     - target: {fileID: 7707350987407504686, guid: 9f39070c2fb485c4988a7315880b0e02,
         type: 3}
       propertyPath: m_Name
@@ -10629,6 +10639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Porcux_Tierra_Animaciones
       objectReference: {fileID: 0}
+    - target: {fileID: 8350040508556960519, guid: c7db572129a3bdb4a802de0965d8569c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8694934889035250109, guid: c7db572129a3bdb4a802de0965d8569c,
         type: 3}
       propertyPath: m_RootOrder
@@ -10647,7 +10662,7 @@ PrefabInstance:
     - target: {fileID: 8694934889035250109, guid: c7db572129a3bdb4a802de0965d8569c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.255722
+      value: -2.16
       objectReference: {fileID: 0}
     - target: {fileID: 8694934889035250109, guid: c7db572129a3bdb4a802de0965d8569c,
         type: 3}
@@ -36654,7 +36669,7 @@ PrefabInstance:
     - target: {fileID: 7090274769779688809, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.9851379
+      value: -2.3648682
       objectReference: {fileID: 0}
     - target: {fileID: 7090274769779688809, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
@@ -36664,7 +36679,7 @@ PrefabInstance:
     - target: {fileID: 7090274769779688809, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 52.697067
+      value: 47.46707
       objectReference: {fileID: 0}
     - target: {fileID: 7090274769779688814, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
@@ -36694,7 +36709,7 @@ PrefabInstance:
     - target: {fileID: 7090274769792676035, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.9851379
+      value: -2.3648682
       objectReference: {fileID: 0}
     - target: {fileID: 7090274769792676035, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
@@ -36704,7 +36719,7 @@ PrefabInstance:
     - target: {fileID: 7090274769792676035, guid: fb17d07ae7e2f82419175c32d299e5ca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 52.697067
+      value: 47.46707
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb17d07ae7e2f82419175c32d299e5ca, type: 3}
@@ -49453,7 +49468,7 @@ PrefabInstance:
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 178.21
+      value: 173.86
       objectReference: {fileID: 0}
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
@@ -49463,7 +49478,7 @@ PrefabInstance:
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -62.3
+      value: -67.53
       objectReference: {fileID: 0}
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
@@ -51096,6 +51111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Porcux_Fuego_Animaciones
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707350987407504686, guid: 9f39070c2fb485c4988a7315880b0e02,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7710232315162384891, guid: 9f39070c2fb485c4988a7315880b0e02,
         type: 3}
