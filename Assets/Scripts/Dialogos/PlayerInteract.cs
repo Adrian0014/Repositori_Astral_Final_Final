@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class PlayerInteract : MonoBehaviour
 {
     [SerializeField] private GameObject intercativeObject;
+    public AudioSource InteractAudioSource;
+    public AudioClip InteractSound;
+
+    private bool _alredy_Interact = false;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && Global.PauseMenu == true && Global.WorldLevels == false)
@@ -81,11 +85,17 @@ public class PlayerInteract : MonoBehaviour
     private void Show()
     {
         intercativeObject.SetActive(true);
+        if(_alredy_Interact == false)
+        {
+            InteractAudioSource.PlayOneShot(InteractSound);
+            _alredy_Interact = true;
+        }
     }
 
     private void Hide()
     {
         intercativeObject.SetActive(false);
+        _alredy_Interact = false;
     }
 
 

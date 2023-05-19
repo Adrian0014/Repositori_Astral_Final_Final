@@ -155,7 +155,7 @@ public class Playermove : MonoBehaviour
         if(isGrounded && Input.GetButtonDown("Jump") && Global.PlayerScript == false)
         {
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -2f * gravity);
-            PlayerAudioJump.PlayOneShot(JumpPlayer);
+            PlayerAudio.PlayOneShot(JumpPlayer);
         }
 
         playerVelocity.y += gravity * Time.deltaTime;
@@ -205,13 +205,13 @@ public class Playermove : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Alpha1) && Global.PlayerScript == false && inTown == false)
         {
             powerType = 1;
-            PlayerAudiChangesPower.PlayOneShot(ChangesPower);
+            PlayerAudio.PlayOneShot(ChangesPower);
         }
 
         if(Input.GetKeyDown(KeyCode.Alpha4) && Global.PlayerScript == false && inTown == false)
         {
             powerType = 0;
-            PlayerAudiChangesPower.PlayOneShot(ChangesPower);
+            PlayerAudio.PlayOneShot(ChangesPower);
         }
     }
 
