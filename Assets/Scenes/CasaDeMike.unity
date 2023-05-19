@@ -1174,6 +1174,11 @@ PrefabInstance:
       propertyPath: gorundLayer.m_Bits
       value: 24
       objectReference: {fileID: 0}
+    - target: {fileID: 8078869630685813771, guid: 3903d734708614d46acee324122e66fe,
+        type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8342958944113407990, guid: 3903d734708614d46acee324122e66fe,
         type: 3}
       propertyPath: intercativeObject
