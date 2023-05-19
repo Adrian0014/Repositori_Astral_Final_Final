@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Options '
+  m_text: Game Paused
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 19a557d9e07293047af2f5714f3d5bee, type: 2}
   m_sharedMaterial: {fileID: -4895888841227377175, guid: 19a557d9e07293047af2f5714f3d5bee,
