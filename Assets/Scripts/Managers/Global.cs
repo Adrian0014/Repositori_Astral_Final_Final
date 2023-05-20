@@ -12,5 +12,7 @@ public static class Global
     [SerializeField] public static int nivel = 1;
     [SerializeField] public static bool OutHouse = false;
     [SerializeField] public static bool WorldLevels = false;
+    [SerializeField] public static bool FirePowerAcitivated = false;
+    [SerializeField] public static bool WaterPowerAcitivated = true;
 
 }
