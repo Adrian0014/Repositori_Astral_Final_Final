@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   intercativeObject: {fileID: 0}
   InteractAudioSource: {fileID: 8418758832451642480}
-  InteractSound: {fileID: 8300000, guid: 040eb43960cd5484f98933ee6b47ccd2, type: 3}
+  InteractSound: {fileID: 8300000, guid: aa5630889e15aa640ad4a7d4f851d381, type: 3}
 --- !u!82 &8418758832451642480
 AudioSource:
   m_ObjectHideFlags: 0

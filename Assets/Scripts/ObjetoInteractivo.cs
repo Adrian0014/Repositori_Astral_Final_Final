@@ -9,6 +9,9 @@ public class ObjetoInteractivo : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private GameObject intercativeObject;
     public Transform interctPlayer;
+    private bool _alredy_Interact_Object = false;
+    public AudioSource InteractObjectAudioSource;
+    public AudioClip InteractObjectSound;
 
     void Update()
     {
@@ -16,15 +19,21 @@ public class ObjetoInteractivo : MonoBehaviour
 
         if(Vector3.Distance(transform.position,interctPlayer.position) < zoneInteract )
         {       
-            intercativeObject.SetActive(true);
+            intercativeObject.SetActive(true);        
+            if(_alredy_Interact_Object == false)
+            {
+                InteractObjectAudioSource.PlayOneShot(InteractObjectSound);
+                _alredy_Interact_Object = true;
+            }
         }
         else
         {
             intercativeObject.SetActive(false);
+            _alredy_Interact_Object = false;
         }
 
     }
 
 
-        
+
 }
