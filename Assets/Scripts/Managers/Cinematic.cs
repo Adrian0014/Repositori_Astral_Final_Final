@@ -10,14 +10,14 @@ public class Cinematic : MonoBehaviour
     void Update()
     {
         cinematicTime += Time.deltaTime;
-        if (cinematicTime > 59f && cinematicPart == 1 || Input.GetKeyDown(KeyCode.Escape) && cinematicPart == 1)
+        if (cinematicTime > 48f && cinematicPart == 1 || Input.GetKeyDown(KeyCode.Escape) && cinematicPart == 1)
         {
             SceneManager.LoadScene(2);
             Global.nivel = 2;
             PlayerPrefs.SetInt("LevelMax",Global.nivel);
  
         }
-        if(cinematicTime > 17f && cinematicPart == 2 || Input.GetKeyDown(KeyCode.Escape) && cinematicPart == 2)
+        if(cinematicTime > 28f && cinematicPart == 2 || Input.GetKeyDown(KeyCode.Escape) && cinematicPart == 2)
         {
 
             SceneManager.LoadScene(4);
