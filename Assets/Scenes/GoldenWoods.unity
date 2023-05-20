@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1891.6914, g: 2062.2324, b: 3076.6406, a: 1}
+  m_IndirectSpecularColor: {r: 1903.7139, g: 2089.8828, b: 3155.5273, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -42358,6 +42358,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1302653780}
     m_Modifications:
+    - target: {fileID: 2462497809679628936, guid: 04e83638a477c9d40a1c7b216bc47e8b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1956787780}
+    - target: {fileID: 2462497809679628936, guid: 04e83638a477c9d40a1c7b216bc47e8b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LookControls
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462497809679628936, guid: 04e83638a477c9d40a1c7b216bc47e8b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InGameMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462497809679628936, guid: 04e83638a477c9d40a1c7b216bc47e8b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6313916845322744177, guid: 04e83638a477c9d40a1c7b216bc47e8b,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -42387,6 +42407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ContinuePlay
+      objectReference: {fileID: 0}
+    - target: {fileID: 6739562706428001538, guid: 04e83638a477c9d40a1c7b216bc47e8b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8652103638123059901, guid: 04e83638a477c9d40a1c7b216bc47e8b,
         type: 3}
@@ -43114,6 +43139,11 @@ PrefabInstance:
       propertyPath: selectMenuGame
       value: 
       objectReference: {fileID: 116889980}
+    - target: {fileID: 3203636131610651460, guid: f3a2c02ed0ce2d748a49500e6f4cab95,
+        type: 3}
+      propertyPath: ControlsInGames
+      value: 
+      objectReference: {fileID: 1811446900}
     - target: {fileID: 8986640232840374536, guid: f3a2c02ed0ce2d748a49500e6f4cab95,
         type: 3}
       propertyPath: jugador
@@ -50983,6 +51013,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7043016632664223636, guid: 9f39070c2fb485c4988a7315880b0e02,
     type: 3}
   m_PrefabInstance: {fileID: 1726524824}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1811446900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6739562706428001538, guid: 04e83638a477c9d40a1c7b216bc47e8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1336001609}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1833575763
 GameObject:

@@ -9,10 +9,10 @@ public class InGameMenu : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject selectMenuGame;
     public GameObject interfazInGame;
+    public GameObject ControlsInGames;
+    public bool openControlInterfaz = false;
     public static InGameMenu Instance;
 
-
-//ME CAGO EN EL PUTO VIAJERO DE MIERDA DE LOS COJONES SU PUTA MADRE QUE PUTO DOLOR DE CABEZA HACER  ALGO PARA ESTE GILIPOLLA ME VA HACer cambiar todo EL PUTO PROYECTO
 
     void Awake() 
     {
@@ -39,6 +39,14 @@ public class InGameMenu : MonoBehaviour
                 Pause();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape) && openControlInterfaz == true)
+        {
+            Debug.Log("seiria");
+            openControlInterfaz = false;
+            ControlsInGames.SetActive(false);
+
+        }
     }
 
     public void ContinuePlay()
@@ -63,6 +71,11 @@ public class InGameMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         Global.PauseMenu = false;
 
+    }
+    public void LookControls()
+    {
+        ControlsInGames.SetActive(true);
+        openControlInterfaz = true;
     }
     public void ReturnLobby()
     {
@@ -90,7 +103,9 @@ public class InGameMenu : MonoBehaviour
         PlayerPrefs.SetInt("LevelMax",Global.nivel);
         SceneManager.LoadScene(Global.nivel);
     }
-    
+
+
+
     void OnTriggerEnter(Collider other) 
     {
         if(other.gameObject.CompareTag("Player"))

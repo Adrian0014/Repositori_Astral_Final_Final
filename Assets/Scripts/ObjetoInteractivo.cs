@@ -17,7 +17,6 @@ public class ObjetoInteractivo : MonoBehaviour
         if(Vector3.Distance(transform.position,interctPlayer.position) < zoneInteract )
         {       
             intercativeObject.SetActive(true);
-            //Poner que se carage la escena de la casa
         }
         else
         {

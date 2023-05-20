@@ -41,7 +41,7 @@ public class Cavelight : MonoBehaviour
         if (this.gameObject.tag == "EndDoor" && collider.gameObject.tag == "Caliente")
         {
             Llamas.SetActive(true);
-            DoorRigg.AddForce(0, -60, 0);
+            DoorRigg.AddForce(0, -80, 0);
             Barreras.GetComponent<Collider>().enabled = false;
             Destroy(Barreras, 4f);
             audioAntorcha.PlayOneShot(EncendidoSFX);
