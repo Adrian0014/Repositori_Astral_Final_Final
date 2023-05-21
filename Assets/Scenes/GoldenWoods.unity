@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1865.9531, g: 2014.5234, b: 2956.754, a: 1}
+  m_IndirectSpecularColor: {r: 1872.8391, g: 2029.2201, b: 2994.1494, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -344,6 +344,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6596802127542944441, guid: 7504490156be3e34b960ea6e5e9bf6ba,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6596802127542944441, guid: 7504490156be3e34b960ea6e5e9bf6ba,
+        type: 3}
+      propertyPath: m_UseContactShadow.m_Override
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6596802127542944443, guid: 7504490156be3e34b960ea6e5e9bf6ba,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6596802127771802440, guid: 7504490156be3e34b960ea6e5e9bf6ba,
         type: 3}
