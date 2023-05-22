@@ -205,7 +205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154887210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.08, y: -0.27, z: 2.75}
+  m_LocalPosition: {x: 1.08, y: -0.92, z: 2.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   intercativeObject: {fileID: 229970923}
-  interctPlayer: {fileID: 1650364018}
+  interctPlayer: {fileID: 631058461}
   InteractObjectAudioSource: {fileID: 154887214}
   InteractObjectSound: {fileID: 8300000, guid: aa5630889e15aa640ad4a7d4f851d381, type: 3}
 --- !u!82 &154887214
@@ -842,6 +842,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8652103638523820231, guid: 04e83638a477c9d40a1c7b216bc47e8b,
     type: 3}
   m_PrefabInstance: {fileID: 1603104144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &631058461 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
+    type: 3}
+  m_PrefabInstance: {fileID: 1691525177}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &661429767
 GameObject:
@@ -1815,12 +1821,6 @@ AudioSource:
     type: 3}
   m_PrefabInstance: {fileID: 1603104144}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1650364018 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1924799185060217767, guid: 3903d734708614d46acee324122e66fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1307159060}
-  m_PrefabAsset: {fileID: 0}
 --- !u!82 &1650364025
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1952,17 +1952,17 @@ PrefabInstance:
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.15
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.811
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.34
+      value: -1.18
       objectReference: {fileID: 0}
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
