@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     public GameObject jugador;
 
     [SerializeField]private bool inTownManager = false;
+    public AudioSource ManagerHitAudio;
+    public AudioClip HitAudio;
 
 
     void Awake() 
@@ -68,6 +70,7 @@ public class GameManager : MonoBehaviour
     public void Impacto()
     {
         Global.vidas--;
+        ManagerHitAudio.PlayOneShot(HitAudio);
 
         if(Global.vidas == 0)
         {
