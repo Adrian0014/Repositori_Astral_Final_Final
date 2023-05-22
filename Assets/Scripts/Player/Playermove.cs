@@ -201,20 +201,18 @@ public class Playermove : MonoBehaviour
         }
 
 
-        if(Input.GetKeyDown(KeyCode.Alpha1) && Global.PlayerScript == false && inTown == false && Global.FirePowerAcitivated == false)
+        if(Input.GetKeyDown(KeyCode.Alpha1) && Global.PlayerScript == false && inTown == false)
         {
             powerType = 1;
             PlayerAudio.PlayOneShot(ChangesPower);
-            Global.FirePowerAcitivated = true;
-            Global.WaterPowerAcitivated = false;
+
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha4) && Global.PlayerScript == false && inTown == false && Global.WaterPowerAcitivated == false)
+        if (Input.GetKeyDown(KeyCode.Alpha4) && Global.PlayerScript == false && inTown == false)
         {
             powerType = 0;
             PlayerAudio.PlayOneShot(ChangesPower);
-            Global.FirePowerAcitivated = false;
-            Global.WaterPowerAcitivated = true;
+
         }
     }
 
