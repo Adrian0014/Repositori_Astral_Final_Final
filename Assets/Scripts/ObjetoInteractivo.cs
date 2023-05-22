@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class ObjetoInteractivo : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField] private GameObject intercativeObject;
     public Transform interctPlayer;
     private bool _alredy_Interact_Object = false;

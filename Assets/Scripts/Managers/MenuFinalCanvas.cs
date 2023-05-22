@@ -15,12 +15,11 @@ public class MenuFinalCanvas : MonoBehaviour
     }
     public void ExitGameFinal()
     {
-        Debug.Log("Se termino");
         Application.Quit();
     }
 
 
-    public void ReturnLobby()
+    public void ReturnTown()
     {
 
         Time.timeScale = 1f;
@@ -28,5 +27,14 @@ public class MenuFinalCanvas : MonoBehaviour
         Global.nivel = 4;
         PlayerPrefs.SetInt("LevelMax",Global.nivel);
         SceneManager.LoadScene(Global.nivel);
+    }
+
+        public void ReturnMenu()
+    {
+        Time.timeScale = 1f;
+        Global.PlayerScript = false;
+        Global.nivel = 4;
+        PlayerPrefs.SetInt("LevelMax",Global.nivel);
+        SceneManager.LoadScene(0);
     }
 }

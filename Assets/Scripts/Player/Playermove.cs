@@ -132,7 +132,6 @@ public class Playermove : MonoBehaviour
 
     void Jump()
     {
-        //Utilizamos un RayCast para el sensordelsuelo
         anim.SetBool("Jump", !isGrounded);
         if(Physics.Raycast(groundSensor.position, Vector3.down, sensorRadius, gorundLayer))
         {

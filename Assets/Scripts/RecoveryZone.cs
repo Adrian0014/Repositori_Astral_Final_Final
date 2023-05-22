@@ -15,7 +15,6 @@ public class RecoveryZone : MonoBehaviour
     {
         if(collider.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Curateputa");
             Global.vidas = 3;
             GameManager.Instance.Recuperacion();
             recoveryHeald.PlayOneShot(healdSound);

@@ -7,7 +7,6 @@ using UnityEngine.AI;
 
 public class NPCInteractable : MonoBehaviour
 {
-    //public Textos texto;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private TMP_Text nameText; 
@@ -18,7 +17,6 @@ public class NPCInteractable : MonoBehaviour
     [SerializeField, TextArea(4,6)]private string[] secondDialogue;
     public Transform respawnPoint;
 
-  //animNPC
     
     private bool didDialogueStart;
     private int lineIndex;
@@ -54,7 +52,6 @@ public class NPCInteractable : MonoBehaviour
     }
     public void Interact()
     {
-        Debug.Log("Interact!");
         if(!didDialogueStart)
         {
            StartDialogue(); 
@@ -81,7 +78,6 @@ public class NPCInteractable : MonoBehaviour
         Time.timeScale = 0;
         Global.PlayerScript = true;
         StartCoroutine(ShowLine());
-        //NPCAudio.PlayOneShot(TalkNPC);
     }
 
     private void NextDialogueLine()
@@ -123,7 +119,6 @@ public class NPCInteractable : MonoBehaviour
     private IEnumerator ShowLine()
     {
         dialogueText.text = string.Empty;
-        //NPCAudio.PlayOneShot(TalkNPC);
         int NPCIndex = 0;
         foreach(char ch in dialogueLines[lineIndex])
         {
@@ -137,10 +132,4 @@ public class NPCInteractable : MonoBehaviour
             yield return new WaitForSecondsRealtime(typingTime);
         }
     }
-
-    /*public void EntrarCasa()
-    {
-        Debug.Log("Entrar a casa");
-        
-    }*/
 }

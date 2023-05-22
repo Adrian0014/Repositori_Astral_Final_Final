@@ -94,7 +94,6 @@ public class PlayerInHouse : MonoBehaviour
 
     void Jump()
     {
-        //Utilizamos un RayCast para el sensordelsuelo
         anim.SetBool("Jump", !isGrounded);
         if(Physics.Raycast(groundSensor.position, Vector3.down, sensorRadius, gorundLayer))
         {
@@ -107,18 +106,6 @@ public class PlayerInHouse : MonoBehaviour
             Debug.DrawRay(groundSensor.position, Vector3.down * sensorRadius, Color.red);
 
         }
-
-        /*
-        if(playerVelocity.y < 0 && isGrounded)
-        {
-            playerVelocity.y = 0;
-        }
-
-        if(isGrounded && Input.GetButtonDown("Jump") && Global.PlayerScript == false)
-        {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -2f * gravity);
-        }*/
-
         playerVelocity.y += gravity * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);        
     }

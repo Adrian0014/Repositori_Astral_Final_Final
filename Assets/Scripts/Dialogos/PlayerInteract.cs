@@ -47,7 +47,6 @@ public class PlayerInteract : MonoBehaviour
 
                 if(collider.gameObject.CompareTag("EndGame") && Global.PlayerScript == false)
                 {
-                    Debug.Log("Papas");
                     Global.nivel = 4;
                     PlayerPrefs.SetInt("LevelMax",Global.nivel);
                     SceneManager.LoadScene(8);

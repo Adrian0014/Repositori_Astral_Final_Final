@@ -42,10 +42,8 @@ public class InGameMenu : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape) && openControlInterfaz == true)
         {
-            Debug.Log("seiria");
             openControlInterfaz = false;
             ControlsInGames.SetActive(false);
-
         }
     }
 

@@ -21,7 +21,6 @@ public class Cavelight : MonoBehaviour
     void Start()
     {
         DoorRigg = Barreras.GetComponent<Rigidbody>();
-        //audioAntorcha = GetComponent<AudioSource>();
         audioAntorcha.clip = ActivoSFX;
     }
 
@@ -32,7 +31,6 @@ public class Cavelight : MonoBehaviour
         {
             Llamas.SetActive(true);
             Destroy(Barreras);
-            Debug.Log("Cueva");
             audioAntorcha.PlayOneShot(EncendidoSFX);
             audioAntorcha.PlayDelayed(4f);            
 
@@ -47,11 +45,7 @@ public class Cavelight : MonoBehaviour
             audioAntorcha.PlayOneShot(EncendidoSFX);
             AudioPuerta.PlayOneShot(PuertaArriba);
             audioAntorcha.PlayDelayed(4f);
-
-
         }
-
-
     }
 }
 

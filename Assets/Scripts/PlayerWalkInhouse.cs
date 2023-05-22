@@ -18,8 +18,6 @@ public class PlayerWalkInhouse : MonoBehaviour
         _audioSourceSteeps.loop = true;
         _audioSourceSteeps.clip = _footsSteepsSound;
     }
-
-    // Update is called once per frame
     void Update()
     {
         PlayFootSteepsSound();

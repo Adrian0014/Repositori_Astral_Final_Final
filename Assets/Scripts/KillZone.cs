@@ -11,7 +11,6 @@ public class KillZone : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Activa");
             other.gameObject.transform.position = respawnPoint.position;
             GameManager.Instance.Impacto();
         }
