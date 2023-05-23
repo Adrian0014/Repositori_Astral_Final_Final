@@ -100563,19 +100563,25 @@ PrefabInstance:
       propertyPath: dialogueLines.Array.data[0]
       value: Great,you made it! Now it's time to talk about the enemies in this world.
         Astral is filled with Porcux, monsters that are made up of the 4 elements
-        Fire, Earth, Water, and Air.
+        Fire, Plant, Water, and Air.
       objectReference: {fileID: 0}
     - target: {fileID: 3286766889991887877, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
       propertyPath: dialogueLines.Array.data[1]
       value: I am an Air Porcux, but don't worry, we are not aggressive.You may wonder
-        how to defeat Fire, Water, and Earth Porcux, but it's very simple.
+        how to defeat Fire, Water, and Plant Porcux, but it's very simple.
       objectReference: {fileID: 0}
     - target: {fileID: 3286766889991887877, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
       propertyPath: dialogueLines.Array.data[2]
-      value: "Fire beats Earth \r\nEarth beats Water\r\nWater beats Fire\nYes, it's
-        that simple!"
+      value: 'Fire beats Plant
+
+        Plant beats Water
+
+        Water beats Fire
+
+        Yes,
+        it''s that simple!'
       objectReference: {fileID: 0}
     - target: {fileID: 3286766889991887877, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
@@ -114018,7 +114024,7 @@ PrefabInstance:
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.68
+      value: 15.83
       objectReference: {fileID: 0}
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
@@ -114028,7 +114034,7 @@ PrefabInstance:
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.44
+      value: 32.18
       objectReference: {fileID: 0}
     - target: {fileID: 1924799185060217767, guid: 5e4be7aa8f7336345be4f39f9c2ee934,
         type: 3}
@@ -121002,7 +121008,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7090274768396369265}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 21.73, y: 1.413, z: -99.119995}
+  m_LocalPosition: {x: 20.880001, y: 1.413, z: -98.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -121069,7 +121075,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7090274768425060573}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 21.73, y: 1.413, z: -99.119995}
+  m_LocalPosition: {x: 20.880001, y: 1.413, z: -98.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

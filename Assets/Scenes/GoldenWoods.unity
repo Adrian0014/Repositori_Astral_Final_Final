@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1872.9951, g: 2027.2891, b: 2987.5625, a: 1}
+  m_IndirectSpecularColor: {r: 1880.0879, g: 2039.2598, b: 3015.5078, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -41840,6 +41840,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937030357219248836, guid: b1c7b83cd0ff61441804e496691da026,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8500147991933561734, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
