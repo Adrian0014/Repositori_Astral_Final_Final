@@ -171,7 +171,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.754
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -266,9 +266,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 6119f9a833b58ee43960c6e06146f5a6,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 3fe818fdfbd3bac48b691ca7aaea5b66, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a394bdea52ffccf42be530dab07fafec, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.234
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioSourceSteeps: {fileID: 1005236845509746770}
-  _footsSteepsSound: {fileID: 8300000, guid: 3fe818fdfbd3bac48b691ca7aaea5b66, type: 3}
+  _footsSteepsSound: {fileID: 8300000, guid: c46a73964502d5948b7f808dbcefc206, type: 3}
 --- !u!1 &1924799185313497754
 GameObject:
   m_ObjectHideFlags: 0

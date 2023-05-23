@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2613.8105, g: 2638.9023, b: 3718.0625, a: 1}
+  m_IndirectSpecularColor: {r: 2614.248, g: 2645.0352, b: 3740.336, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1452,7 +1452,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.724
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1937,7 +1937,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.787
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2407,7 +2407,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.851
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3001,7 +3001,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.775
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8624,10 +8624,11 @@ AudioSource:
   m_GameObject: {fileID: 512035667}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 6119f9a833b58ee43960c6e06146f5a6,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.711
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9953,7 +9954,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.689
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -13205,7 +13206,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.817
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -14283,7 +14284,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.792
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -15274,12 +15275,12 @@ PrefabInstance:
     - target: {fileID: 1195805020513398293, guid: 7fd7ee6f0865f6f4a9d0f96530890bde,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 167.52
+      value: 167.51
       objectReference: {fileID: 0}
     - target: {fileID: 1195805020513398293, guid: 7fd7ee6f0865f6f4a9d0f96530890bde,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 69.25587
+      value: 69.26
       objectReference: {fileID: 0}
     - target: {fileID: 1195805020513398293, guid: 7fd7ee6f0865f6f4a9d0f96530890bde,
         type: 3}
