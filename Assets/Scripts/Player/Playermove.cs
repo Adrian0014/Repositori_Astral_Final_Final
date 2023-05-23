@@ -64,6 +64,7 @@ public class Playermove : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         cam = Camera.main.transform;
         PlayerAudio = GetComponent<AudioSource>();
+        Global.vidas = 3;
     }
 
     void Start()

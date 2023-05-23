@@ -27,6 +27,7 @@ public class Antorchas : MonoBehaviour
         audioAntorcha = GetComponent<AudioSource>();
         audioAntorcha.clip = ActivoSFX;
         AudioPuerta.clip = PuertaArriba;
+        Global.bigTorch = 0;
     }
 
 

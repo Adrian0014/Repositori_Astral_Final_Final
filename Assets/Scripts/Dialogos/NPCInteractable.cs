@@ -109,7 +109,6 @@ public class NPCInteractable : MonoBehaviour
             }
             if(this.gameObject.layer == 7)
             {
-                Debug.Log("MenuNiveles");
                 InGameMenu.Instance.LevelSelect();
             }
             

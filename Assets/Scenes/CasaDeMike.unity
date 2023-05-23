@@ -2867,10 +2867,14 @@ MonoBehaviour:
   camaraNPC: {fileID: 91894578}
   unScaledTime: 0
   dialogueLines:
-  - Hello budy, my name is James, Im the blacksmith of FireStone.
-  - If you are the new bearer of magic, I guess there won't be much need for you
-    to visit us often.
-  - Well, still, nice to meet you, Mike.
+  - Hello, you must be Mike, right?
+  - I'm Allison. I'm just like you. I came from another time and had to acquire the
+    4 powers.
+  - And when I had them in my possession...
+  - Well, that's all in the past now.
+  - To start your adventure, talk to Pedro. He's the man with a car. If you leave
+    the house and go straight, you'll find him.
+  - He can take you to your first destination. I'll stay around here. Good luck.
   nameLines:
   - Allison
   secondDialogue:

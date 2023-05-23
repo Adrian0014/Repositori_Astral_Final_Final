@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2614.6113, g: 2647.0781, b: 3747.7188, a: 1}
+  m_IndirectSpecularColor: {r: 2613.8105, g: 2638.9023, b: 3718.0625, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15467,14 +15467,13 @@ PrefabInstance:
     - target: {fileID: 1662640981454937093, guid: 7fd7ee6f0865f6f4a9d0f96530890bde,
         type: 3}
       propertyPath: secondDialogue.Array.data[3]
-      value: "I'll leave you this book here where you can discover everything that
-        happened for Astral to go from being a peaceful place to becoming this infernal
-        place completely infected with Porcux\u2026"
+      value: This will be your new home. Allison is probably gathering her things.
       objectReference: {fileID: 0}
     - target: {fileID: 1662640981454937093, guid: 7fd7ee6f0865f6f4a9d0f96530890bde,
         type: 3}
       propertyPath: secondDialogue.Array.data[4]
-      value: Here is where you will reside during your stay in Firestone. Cozy, right?
+      value: Why don't you talk to her? I'm sure she'll explain something interesting
+        to you.
       objectReference: {fileID: 0}
     - target: {fileID: 1812764932401973674, guid: 7fd7ee6f0865f6f4a9d0f96530890bde,
         type: 3}

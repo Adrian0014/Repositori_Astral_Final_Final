@@ -68008,17 +68008,24 @@ PrefabInstance:
     - target: {fileID: 3286766889991887877, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3286766889991887877, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: Welcome to the cave
+      value: Welcome to the cave.
       objectReference: {fileID: 0}
     - target: {fileID: 3286766889991887877, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: 
+      value: To pass through the cave, you'll need to light up the lanterns along
+        the cave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286766889991887877, guid: b1c7b83cd0ff61441804e496691da026,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: When you light them up, the power barriers will disappear, and you'll
+        be able to progress through the maze.
       objectReference: {fileID: 0}
     - target: {fileID: 6096159673224384342, guid: b1c7b83cd0ff61441804e496691da026,
         type: 3}
