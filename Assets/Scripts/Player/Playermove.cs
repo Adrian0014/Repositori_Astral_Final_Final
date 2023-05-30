@@ -111,6 +111,8 @@ public class Playermove : MonoBehaviour
             cameras[0].SetActive(false);
             cameras[1].SetActive(true);
             speed = 2f;
+            xAxis.m_MaxSpeed = 100f;
+            yAxis.m_MaxSpeed = 100f;
         }
         else
         {
@@ -119,6 +121,8 @@ public class Playermove : MonoBehaviour
             bulletSpawn = NormalSpawn;
             cameras[0].SetActive(true);
             cameras[1].SetActive(false);
+            xAxis.m_MaxSpeed = 300f;
+            yAxis.m_MaxSpeed = 300f;
         }
 
         if(movement != Vector3.zero)
